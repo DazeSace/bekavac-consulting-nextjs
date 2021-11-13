@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #051923;
+}
+
+@font-face {
+    font-family: "LatoBlack";
+    src: url('/fonts/Lato-Black.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url('/fonts/Lato-Bold.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LatoLight";
+    src: url('/fonts/Lato-Light.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url('/fonts/Lato-Regular.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LatoThin";
+    src: url('/fonts/Lato-Thin.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+.lato-thin {
+    font-family: LatoThin, sans-serif;
+}
+
+.lato-light {
+    font-family: LatoLight, sans-serif;
+}
+
+.lato-regular {
+    font-family: LatoRegular, sans-serif;
+}
+
+.lato-bold {
+    font-family: LatoBold, sans-serif;
+}
+
+.lato-black {
+    font-family: LatoBlack, sans-serif;
+}
