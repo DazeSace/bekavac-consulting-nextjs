@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from "../components/Navbar";
 
 export default function Home() {
     return (
@@ -14,9 +15,9 @@ export default function Home() {
                     crossOrigin=""
                 />
             </Head>
-            <div>
-                <p className={"lato-light"}>Juice Bruice</p>
-            </div>
+            <main>
+                <Navbar/>
+            </main>
         </div>
     )
 }
