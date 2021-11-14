@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from "../components/Navbar";
+import IntroText from "../components/IntroText";
 
 export default function Home() {
     return (
@@ -14,9 +15,22 @@ export default function Home() {
                     as="font"
                     crossOrigin=""
                 />
+                <link
+                    rel="preload"
+                    href="/fonts/Lato-Black.ttf"
+                    as="font"
+                    crossOrigin=""
+                />
+                <link
+                    rel="preload"
+                    href="/fonts/Lato-Thin.ttf"
+                    as="font"
+                    crossOrigin=""
+                />
             </Head>
             <main>
                 <Navbar/>
+                <IntroText className={"pt-24"}/>
             </main>
         </div>
     )
