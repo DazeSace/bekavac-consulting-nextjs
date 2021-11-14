@@ -6,7 +6,8 @@ import mail from "../public/vectors/mail_outline.svg"
 const Contact = () => {
     return (
         <div className={"px-5"}>
-            <div className={"bg-sea p-4 rounded-2xl text-xl lato-light"}>
+            <p className={"lato-black text-2xl tracking-wide"}>Wie Sie uns erreichen können: </p>
+            <div className={"bg-sea p-4 rounded-2xl text-xl lato-light mt-4"}>
                 <p className={"text-2xl lato-bold"}>Michaela Bekavac</p>
                 <div className={"flex mt-2"}>
                     <Image alt={"mail icon"} src={mail} width={"30"} height={"30"}/>

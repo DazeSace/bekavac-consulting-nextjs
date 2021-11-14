@@ -7,7 +7,7 @@ const IntroText = (props) => {
             <h1 className={"text-3xl lato-black tracking-wide"}>Wir helfen Ihnen Ihre Projekte umzusetzen. </h1>
             <h2 className={"text-3xl lato-light pt-8"}>Mit professionellen Verbindungen zu anderen Branchen erreichen
                 wir gemeinsam Ihr Ziel.</h2>
-            <div className={"flex justify-center mt-48"}>
+            <div className={"flex justify-center mt-48 mb-32"}>
                 <Image alt={"arrow to go down"} src={arrow} width={"48"} height={"48"}/>
             </div>
         </div>

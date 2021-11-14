@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import IntroText from "../components/IntroText";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
+import HowWeCanHelp from "../components/HowWeCanHelp";
+import Work from "../components/Work";
+import WhoWeAre from "../components/WhoWeAre";
 
 export default function Home() {
     return (
@@ -33,6 +36,9 @@ export default function Home() {
             <main>
                 <Navbar/>
                 <IntroText className={"pt-24"}/>
+                <HowWeCanHelp/>
+                <WhoWeAre/>
+                <Work/>
                 <Contact/>
             </main>
             <Footer/>
