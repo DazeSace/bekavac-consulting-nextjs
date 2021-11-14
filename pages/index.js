@@ -23,7 +23,7 @@ export default function Home() {
                 />
                 <link
                     rel="preload"
-                    href="/fonts/Lato-Thin.ttf"
+                    href="/fonts/Lato-Light.ttf"
                     as="font"
                     crossOrigin=""
                 />
