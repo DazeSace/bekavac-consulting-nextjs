@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Navbar from "../components/Navbar";
 import IntroText from "../components/IntroText";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 export default function Home() {
     return (
@@ -31,7 +33,9 @@ export default function Home() {
             <main>
                 <Navbar/>
                 <IntroText className={"pt-24"}/>
+                <Contact/>
             </main>
+            <Footer/>
         </div>
     )
 }
